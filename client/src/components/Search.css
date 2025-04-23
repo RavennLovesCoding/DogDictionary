@@ -1,0 +1,115 @@
+/* Updated CSS */
+
+.menu {
+  position: relative;
+  display: inline-block;
+  margin: 50px;
+  width: 550px; /* Menu width unchanged */
+  height: 30px;
+  background: #e9e9e9;
+}
+
+.menu-item {
+  width: 400px;
+  background: #fff;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  position: relative;
+  display: inline-block;
+  margin-left: 150px;
+}
+
+.menu-item:focus {
+  outline: none;
+}
+
+@media (max-width: 600px) {
+  .menu-item {
+    width: 90%;
+  }
+}
+
+.fullcontainer {
+  display: flex;
+  justify-content: center; /* Center content on the page */
+  margin: 0 auto;
+}
+
+.fullcard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Grid layout */
+  gap: 16px;
+  padding: 16px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center;
+  justify-content: center;
+  margin: 25px;
+  padding: 10px;
+  box-shadow: 0 4px 8px #dadada;
+  width: 80%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column; /* Stack elements within the card */
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border: white solid 1px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card-img {
+  width: 350px;
+  height: auto;
+  border-radius: 5px;
+  margin: 10px; /* Adjusted margin for better alignment */
+}
+
+.card-content {
+  display: flex;
+  flex-direction: row; /* Text next to the image */
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.card-main-content {
+  margin: 10px; /* Reduced margin for improved spacing */
+}
+
+header {
+  text-align: center;
+  margin-bottom: 10px; /* Space below the header */
+}
+
+cite {
+  color: #000;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: x-small;
+}
+
+.dataAvailable {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 90%;
+  }
+}
