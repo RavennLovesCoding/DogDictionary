@@ -15,6 +15,7 @@ function Nav (){
     <ul className="navbar-nav">
       <li className="nav-item active">
         <a className="nav-link" href="#">Home</a>
+        <a className="nav-link" href="">FAQ</a>
       </li>
       
       
